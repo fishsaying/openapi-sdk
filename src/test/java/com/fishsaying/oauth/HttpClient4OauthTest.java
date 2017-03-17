@@ -1,12 +1,12 @@
 package com.fishsaying.oauth;
 
-import static org.junit.Assert.*;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 import org.junit.Test;
 
-import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.Request;
-import com.squareup.okhttp.Response;
+
 
 /**
  * 

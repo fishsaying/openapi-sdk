@@ -1,8 +1,8 @@
 package com.fishsaying.oauth.client;
 
-import java.util.concurrent.TimeUnit;
 
-import com.squareup.okhttp.OkHttpClient;
+import okhttp3.OkHttpClient;
+
 
 /**
  * <p>
@@ -36,7 +36,6 @@ public enum HttpClientFactory {
 	static {
 		// 创建客户端
 		client = OauthHttpClient.getClient();
-		client.setConnectTimeout(30, TimeUnit.SECONDS);
 	}
 
 	/**

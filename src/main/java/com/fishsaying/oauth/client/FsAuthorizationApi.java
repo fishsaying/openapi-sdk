@@ -2,9 +2,11 @@ package com.fishsaying.oauth.client;
 
 import java.io.IOException;
 
-import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.Request;
-import com.squareup.okhttp.Response;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
+
 
 /**
  * 

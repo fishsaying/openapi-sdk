@@ -1,6 +1,9 @@
 package com.fishsaying.oauth.client;
 
-import com.squareup.okhttp.OkHttpClient;
+import java.util.concurrent.TimeUnit;
+
+import okhttp3.OkHttpClient;
+
 
 /**
  * 
@@ -16,6 +19,8 @@ public class OauthHttpClient {
 	 */
 	public static OkHttpClient getClient(){
 		OkHttpClient client = new OkHttpClient();
+		// 借助构建器builder 设置更多的client参数
+		client.newBuilder().connectTimeout(30, TimeUnit.SECONDS).build();
 		return client;
 	}
 
