@@ -73,6 +73,15 @@ gradle方式
 compile com.fishsaying.oauth:fs-sdk-oauth:1.0.0
 ```
 
+Build
+===
+Once you check out the code from GitHub, you can build it using Gradle. Use the following command to build:
+
+```
+gradle build -x test
+```
+
+
 示例程序
 ===
 
