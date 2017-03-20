@@ -1,11 +1,11 @@
 前言
 =
 
-SDK下载
+SDK下载((如何获得SDK))
 ===
 maven工程
 ----
-添加：
+添加(添加maven库)：
 ```
 <repositories>
 	<repository>
@@ -19,7 +19,7 @@ maven工程
 
 gradle工程
 ----
-添加：
+添加(添加依赖库)：
 ```
 repositories {
 	// 中央仓库
@@ -100,5 +100,12 @@ github查看下载，参考[FishSaying Oauth SDK](https://github.com/fishsaying/
 
 API文档
 ===
-更多了解API使用，请移步至[openapi](https://github.com/fishsaying/openapi)
+更多关于API的使用，请移步至[openapi](https://github.com/fishsaying/openapi)
+
+----
+
+License
+===
+
+licensed under the [Apache License 2.0](https://www.apache.org/licenses/)
 
