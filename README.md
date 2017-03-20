@@ -1,4 +1,4 @@
-前言
+FishSaying OpenAPI SDK for Java
 =
 
 SDK下载(如何获得SDK)
@@ -48,6 +48,7 @@ fishsaying oauth SDK适用于 JDK 6 及以上版本
 环境准备
 ===
  * 适用于JDK 6及以上版本
+ * Mavan or Gradle
 
 安装方式
 ===
