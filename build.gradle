@@ -28,7 +28,7 @@ task apiJar(type: Jar) {
     baseName "fishsaying"
     from sourceSets.main.output
 }
-
+// 定义包的骨架
 publishing {
     publications {
         api(MavenPublication) {
@@ -41,15 +41,3 @@ publishing {
     }
 }
 
-publishing {
-    repositories {
-        maven {
-            // 公网maven私服
-           url "http://maven.fishsaying.com/nexus/content/repositories/thirdparty/"
-            credentials {
-                username 'admin'
-                password 'yushuo@77714'
-            }
-        }
-    }
-}
