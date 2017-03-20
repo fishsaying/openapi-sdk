@@ -1,6 +1,6 @@
 FishSaying OpenAPI SDK for Java
 =
-The FishSaying OpenAPI SDK for Java enables Java developers to easily work with FishSaying OpenAPI. You can get started in minutes using Maven or by downloading a [single zip file](https://codeload.github.com/fishsaying/openapi-sdk/zip/master).
+The FishSaying OpenAPI SDK for Java enables Java developers to easily work with FishSaying OpenAPI. You can get started in minutes using Maven,Gradle or by downloading a [single zip file](https://codeload.github.com/fishsaying/openapi-sdk/zip/master).
 
 SDK下载(如何获得SDK)
 ===
