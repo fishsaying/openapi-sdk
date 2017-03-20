@@ -96,3 +96,9 @@ github查看下载，参考[FishSaying Oauth SDK](https://github.com/fishsaying/
 | StoryUnderScenicSample|景区相关的故事|
 | StoryUnderFigureSample|历史人物相关的故事|
 
+-----
+
+API文档
+===
+更多了解API使用，请移步至[openapi](https://github.com/fishsaying/openapi)
+
