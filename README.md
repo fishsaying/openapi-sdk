@@ -37,7 +37,7 @@ repositories {
 ===
 
 ```
-fishsaying oauth SDK适用于 JDK 6 及以上版本
+fishsaying openApi SDK适用于 JDK 6 及以上版本
 本文档主要介绍 此SDK 的安装、使用及注意事项；
 并且假设您已经开通了鱼说[授权]服务，并创建了 clientId和clientSecret。
 ```
@@ -76,9 +76,9 @@ compile com.fishsaying.oauth:fs-sdk-oauth:1.0.0
 示例程序
 ===
 
-FishSaying Oauth SDK提供示例程序，方便用户参考或直接使用。您可以通过以下方式获取示例程序：
+FishSaying OpenAPI SDK提供示例程序，方便用户参考或直接使用。您可以通过以下方式获取示例程序：
 
-github查看下载，参考[FishSaying Oauth SDK](https://github.com/fishsaying/openapi-sdk) 下的src/samples为示例程序，
+github查看下载，参考[FishSaying OpenAPI SDK](https://github.com/fishsaying/openapi-sdk) 下的src/samples为示例程序，
 可以快速使用。
 
 -----
